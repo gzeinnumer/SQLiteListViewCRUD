@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="21dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="Input Data Mahasiswa"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:layout_marginBottom="11dp"/>
+        <TableRow>
+            <TextView android:text="No Bp  "
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editNoBp"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nama"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editNama"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Kelas"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editKelas"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Prodi"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editProdi"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Jurusan"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editJurusan"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Umur"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/editUmur"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="11dp">
+            <Button android:id="@+id/btnSimpan"
+                android:text="Simpan"
+                android:layout_weight="1"/>
+            <Button android:id="@+id/btnTutup"
+                android:text="Tutup"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="21dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MahasiswaDetilData">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="Data Mahasiswa"
+            android:id="@+id/tvTitle"
+            android:textAlignment="center"
+            android:textSize="31sp"
+            android:layout_marginBottom="11dp"/>
+        <TableRow>
+            <TextView android:text="No Bp  "
+                android:layout_weight="1"/>
+            <EditText
+                android:enabled="false"
+                android:id="@+id/tvNoBp"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nama"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/tvNama"
+                android:enabled="false"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Kelas"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/tvKelas"
+                android:enabled="false"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Prodi"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/tvProdi"
+                android:enabled="false"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Jurusan"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/tvJurusan"
+                android:enabled="false"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Umur"
+                android:layout_weight="1"/>
+            <EditText android:id="@+id/tvUmur"
+                android:enabled="false"
+                android:layout_weight="9"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="11dp">
+            <Button android:id="@+id/btnUpdate"
+                android:text="Update"
+                android:visibility="gone"
+                android:layout_weight="1"/>
+            <Button android:id="@+id/btnTutup"
+                android:text="Tutup"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
